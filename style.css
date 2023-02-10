@@ -1,16 +1,32 @@
 body{
     display: flex;
     align-items: center;
-    justify-content: sp;
+    justify-content: center;
 }
 
 .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
     margin: 0px;
     padding: 0px;
     border: solid 1px black;
     width: 600px;
-    height: 600 px;
+    height: 600px;
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    border: solid 1px black;
+    width: 600px;
+    height: 600px;
+
+}
+.colours{
+ display: flex;
+ justify-content: space-between;
+ width: 300px;
 }
